@@ -1,0 +1,43 @@
+uuid: 6c2e8653-d843-4125-a535-bb7a663180e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon_container
+    - paragraphs.paragraphs_type.icon_container
+    - paragraphs.paragraphs_type.icons
+  module:
+    - entity_reference_revisions
+id: paragraph.icon_container.field_icon_container
+field_name: field_icon_container
+entity_type: paragraph
+bundle: icon_container
+label: 'Icon Container'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      icons: icons
+    target_bundles_drag_drop:
+      icon_container:
+        weight: 6
+        enabled: false
+      icons:
+        enabled: true
+        weight: 7
+      slider:
+        weight: 8
+        enabled: false
+      testimonials:
+        weight: 9
+        enabled: false
+      what_is_bitcoin:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

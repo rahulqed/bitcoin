@@ -1,0 +1,23 @@
+uuid: b1af34b1-78bc-444b-ad8f-d345a00df33d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_us
+    - paragraphs.paragraphs_type.what_is_bitcoin
+  module:
+    - link
+id: paragraph.what_is_bitcoin.field_about_us
+field_name: field_about_us
+entity_type: paragraph
+bundle: what_is_bitcoin
+label: 'Join Us'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

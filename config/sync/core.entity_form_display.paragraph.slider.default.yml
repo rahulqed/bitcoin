@@ -1,0 +1,45 @@
+uuid: b56e18aa-44e4-4c84-98e3-2f5bf6c58b24
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slider.field_about_us
+    - field.field.paragraph.slider.field_slider_image
+    - field.field.paragraph.slider.field_slider_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.slider
+  module:
+    - image
+    - link
+id: paragraph.slider.default
+targetEntityType: paragraph
+bundle: slider
+mode: default
+content:
+  field_about_us:
+    weight: 2
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_slider_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_slider_title:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

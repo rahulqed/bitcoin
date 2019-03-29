@@ -1,0 +1,19 @@
+uuid: 4ba1c265-23d3-419e-8af6-ba1f691c0325
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slider_title
+    - paragraphs.paragraphs_type.what_is_bitcoin
+id: paragraph.what_is_bitcoin.field_slider_title
+field_name: field_slider_title
+entity_type: paragraph
+bundle: what_is_bitcoin
+label: 'Money Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

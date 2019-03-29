@@ -1,0 +1,65 @@
+uuid: 702c7eee-1655-45d5-9174-0a539dea831c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.what_is_bitcoin.field_about_us
+    - field.field.paragraph.what_is_bitcoin.field_description
+    - field.field.paragraph.what_is_bitcoin.field_image
+    - field.field.paragraph.what_is_bitcoin.field_money_subtitle
+    - field.field.paragraph.what_is_bitcoin.field_slider_title
+    - paragraphs.paragraphs_type.what_is_bitcoin
+  module:
+    - image
+    - link
+    - text
+id: paragraph.what_is_bitcoin.default
+targetEntityType: paragraph
+bundle: what_is_bitcoin
+mode: default
+content:
+  field_about_us:
+    weight: 4
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_description:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_money_subtitle:
+    weight: 6
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_slider_title:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

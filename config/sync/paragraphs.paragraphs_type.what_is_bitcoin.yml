@@ -1,0 +1,9 @@
+uuid: 313cf64d-5bd2-4403-aa67-3d573becb62f
+langcode: en
+status: true
+dependencies: {  }
+id: what_is_bitcoin
+label: 'What is bitcoin'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

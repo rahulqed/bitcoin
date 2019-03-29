@@ -1,0 +1,9 @@
+uuid: 025364f3-7ab5-40a6-8fe2-0dcf54da930f
+langcode: en
+status: true
+dependencies: {  }
+id: icon_container
+label: 'Icon Container'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

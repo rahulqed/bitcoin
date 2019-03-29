@@ -1,0 +1,19 @@
+uuid: b5b6b139-69d0-471a-8483-8ff80a5a8fd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_money_subtitle
+    - paragraphs.paragraphs_type.what_is_bitcoin
+id: paragraph.what_is_bitcoin.field_money_subtitle
+field_name: field_money_subtitle
+entity_type: paragraph
+bundle: what_is_bitcoin
+label: 'Money subtitle'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

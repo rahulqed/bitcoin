@@ -1,0 +1,21 @@
+uuid: 878a6425-4fb4-45ff-88b5-4ed73ecfbc79
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.what_is_bitcoin
+  module:
+    - text
+id: paragraph.what_is_bitcoin.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: what_is_bitcoin
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,14 @@
+uuid: 709c9c88-fac4-4a93-88a4-e0f8f01e05f2
+name: Hashcoin
+mail: rahul.deshmukh324.rdr@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

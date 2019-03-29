@@ -1,0 +1,29 @@
+uuid: 9999cb76-dc01-4e9c-94ed-e6660b84e128
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.icon_container.field_icon_container
+    - paragraphs.paragraphs_type.icon_container
+  module:
+    - paragraphs
+id: paragraph.icon_container.default
+targetEntityType: paragraph
+bundle: icon_container
+mode: default
+content:
+  field_icon_container:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true
