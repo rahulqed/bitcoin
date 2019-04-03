@@ -5,8 +5,10 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
+    - field.field.node.page.field_what_is_bitcoin
     - node.type.page
   module:
+    - entity_reference_revisions
     - text
     - user
 _core:
@@ -17,19 +19,30 @@ bundle: page
 mode: teaser
 content:
   addtoany:
-    weight: 101
+    weight: 1
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 100
+    weight: 0
     region: content
     settings:
       trim_length: 600
     third_party_settings: {  }
-  links:
-    weight: 101
+  field_what_is_bitcoin:
+    type: entity_reference_revisions_entity_view
+    weight: 3
     region: content
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden: {  }

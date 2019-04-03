@@ -1,0 +1,19 @@
+uuid: 0ef3256a-2a8a-4b30-a9cc-9ab7d11d4d7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_testimonial_last_name
+    - node.type.testimonials
+id: node.testimonials.field_testimonial_last_name
+field_name: field_testimonial_last_name
+entity_type: node
+bundle: testimonials
+label: 'Testimonial Last Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
