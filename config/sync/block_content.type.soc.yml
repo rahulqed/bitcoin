@@ -1,0 +1,8 @@
+uuid: 90522d1d-73ee-470e-9f77-67a2ac0a5329
+langcode: en
+status: true
+dependencies: {  }
+id: soc
+label: 'Social links'
+revision: 0
+description: ''

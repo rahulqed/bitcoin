@@ -52,5 +52,7 @@ hidden:
   addtoany: true
   field_by: true
   field_in: true
+  field_linking_image: true
+  field_main_image: true
   field_on: true
   field_title: true

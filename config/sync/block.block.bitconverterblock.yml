@@ -1,0 +1,30 @@
+uuid: 0031ced6-f6d9-41ef-988f-ac14dacb6c1a
+langcode: en
+status: true
+dependencies:
+  module:
+    - bitconverter
+    - node
+  theme:
+    - bartik
+id: bitconverterblock
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: bit_converter
+settings:
+  id: bit_converter
+  label: 'Bit converter Block'
+  provider: bitconverter
+  label_display: visible
+  bimage: {  }
+  access_key: ''
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

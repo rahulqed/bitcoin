@@ -1,0 +1,5 @@
+name: Bit converter
+type: module
+description: Defines a custom block for converting bitcoins.
+core: 8.x
+package: custom.

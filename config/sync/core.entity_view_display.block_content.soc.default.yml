@@ -1,0 +1,23 @@
+uuid: 29ea114e-8627-4faf-9e38-eaa86712d0c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.soc
+    - field.field.block_content.soc.field_social_links
+  module:
+    - fontawesome
+id: block_content.soc.default
+targetEntityType: block_content
+bundle: soc
+mode: default
+content:
+  field_social_links:
+    weight: 0
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    type: fontawesome_icon_formatter
+    region: content
+hidden: {  }

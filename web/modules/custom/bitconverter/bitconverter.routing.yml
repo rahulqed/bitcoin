@@ -1,0 +1,7 @@
+ajax_example.simplest:
+  path: '/examples/ajax-example/simplest'
+  defaults:
+    _form: '\Drupal\bitconverter\Form\ConveriosnForm'
+    _title: 'Simplest AJAX example'
+  requirements:
+    _permission: 'access content'

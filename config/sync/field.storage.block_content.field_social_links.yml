@@ -1,0 +1,19 @@
+uuid: af8a12aa-9b94-40a6-8019-5261cbb2e6e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - fontawesome
+id: block_content.field_social_links
+field_name: field_social_links
+entity_type: block_content
+type: fontawesome_icon
+settings: {  }
+module: fontawesome
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

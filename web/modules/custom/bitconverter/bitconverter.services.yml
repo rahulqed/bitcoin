@@ -1,0 +1,4 @@
+services:
+  bitconverter.bitservice:
+    class: Drupal\bitconverter\Services\BitService
+    arguments: ['@http_client_factory']

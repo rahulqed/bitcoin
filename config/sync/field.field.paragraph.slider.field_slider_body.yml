@@ -1,19 +1,21 @@
-uuid: fc098313-2bab-492c-9476-5a4ca6f121f8
+uuid: d473c6b7-7f83-4e54-81ee-d942a1c3d99f
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_slider_title
+    - field.storage.paragraph.field_slider_body
     - paragraphs.paragraphs_type.slider
-id: paragraph.slider.field_slider_title
-field_name: field_slider_title
+  module:
+    - text
+id: paragraph.slider.field_slider_body
+field_name: field_slider_body
 entity_type: paragraph
 bundle: slider
-label: 'Slider Title'
+label: 'Slider Body'
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string
+field_type: text_long

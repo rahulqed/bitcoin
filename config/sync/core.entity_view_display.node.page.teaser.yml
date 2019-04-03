@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.page.body
     - field.field.node.page.field_what_is_bitcoin
     - node.type.page
   module:
@@ -22,14 +21,6 @@ content:
     weight: 1
     region: content
     settings: {  }
-    third_party_settings: {  }
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 0
-    region: content
-    settings:
-      trim_length: 600
     third_party_settings: {  }
   field_what_is_bitcoin:
     type: entity_reference_revisions_entity_view
