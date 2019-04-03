@@ -1,0 +1,33 @@
+uuid: 1f2289f3-0c0c-4a3e-a6ec-16974498d0b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.recent_blog
+    - field.field.block_content.recent_blog.body
+    - field.field.block_content.recent_blog.field_recent_
+  module:
+    - entity_reference_revisions
+    - text
+id: block_content.recent_blog.default
+targetEntityType: block_content
+bundle: recent_blog
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_recent_:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,23 @@
+uuid: 945d43b5-d3d0-493d-a745-169a4afdb6c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.recent_blog.field_recent_blog
+    - paragraphs.paragraphs_type.recent_blog
+id: paragraph.recent_blog.default
+targetEntityType: paragraph
+bundle: recent_blog
+mode: default
+content:
+  field_recent_blog:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

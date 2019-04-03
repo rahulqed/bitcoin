@@ -1,0 +1,29 @@
+uuid: 0c9257aa-3a09-4773-ab93-59a4c19164fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_blog
+    - node.type.recent_blog
+    - taxonomy.vocabulary.news_events
+id: node.recent_blog.field_news_blog
+field_name: field_news_blog
+entity_type: node
+bundle: recent_blog
+label: 'News Blog'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      news_events: news_events
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

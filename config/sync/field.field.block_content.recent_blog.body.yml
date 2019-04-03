@@ -1,0 +1,22 @@
+uuid: b1faf218-363f-4b39-9a72-9f0719a7cf01
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.recent_blog
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.recent_blog.body
+field_name: body
+entity_type: block_content
+bundle: recent_blog
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

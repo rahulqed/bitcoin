@@ -1,0 +1,38 @@
+uuid: 1fa28794-ade2-4fba-90a3-fde465c56081
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.newsletter
+    - field.field.block_content.newsletter.body
+    - field.field.block_content.newsletter.field_description
+    - field.field.block_content.newsletter.field_heading
+  module:
+    - text
+id: block_content.newsletter.default
+targetEntityType: block_content
+bundle: newsletter
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_description:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_heading:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

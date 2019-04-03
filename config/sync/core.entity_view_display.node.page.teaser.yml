@@ -18,9 +18,9 @@ mode: teaser
 content:
   addtoany:
     weight: 101
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   body:
     label: hidden
     type: text_summary_or_trimmed
@@ -32,4 +32,6 @@ content:
   links:
     weight: 101
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden: {  }

@@ -1,0 +1,52 @@
+uuid: 9861789f-0e68-41ba-a415-656b7c9492b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_para_service
+    - node.type.page
+    - paragraphs.paragraphs_type.services
+  module:
+    - entity_reference_revisions
+id: node.page.field_para_service
+field_name: field_para_service
+entity_type: node
+bundle: page
+label: 'Para Service'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      services: services
+    target_bundles_drag_drop:
+      hash_coin:
+        weight: 9
+        enabled: false
+      icons:
+        weight: 10
+        enabled: false
+      icon_container:
+        weight: 11
+        enabled: false
+      images:
+        weight: 12
+        enabled: false
+      recent_blog:
+        weight: 13
+        enabled: false
+      services:
+        enabled: true
+        weight: 14
+      slider:
+        weight: 15
+        enabled: false
+      what_is_bitcoin:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

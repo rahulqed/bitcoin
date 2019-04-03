@@ -1,0 +1,52 @@
+uuid: 4d60ff6b-9177-4700-a87a-873a40a3b8af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_images_para
+    - node.type.page
+    - paragraphs.paragraphs_type.images
+  module:
+    - entity_reference_revisions
+id: node.page.field_images_para
+field_name: field_images_para
+entity_type: node
+bundle: page
+label: 'Images Para'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      images: images
+    target_bundles_drag_drop:
+      hash_coin:
+        weight: 9
+        enabled: false
+      icons:
+        weight: 10
+        enabled: false
+      icon_container:
+        weight: 11
+        enabled: false
+      images:
+        enabled: true
+        weight: 12
+      recent_blog:
+        weight: 13
+        enabled: false
+      services:
+        weight: 14
+        enabled: false
+      slider:
+        weight: 15
+        enabled: false
+      what_is_bitcoin:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

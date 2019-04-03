@@ -1,0 +1,22 @@
+uuid: c96430f2-a41e-4ec6-9bf6-fb1d5f5f9ef9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.email_form
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.email_form.body
+field_name: body
+entity_type: block_content
+bundle: email_form
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

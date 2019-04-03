@@ -1,0 +1,52 @@
+uuid: caaf8ec2-adbd-478f-8a9e-3bda35a60c69
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hash_coin
+    - field.storage.block_content.field_hash_coin
+    - paragraphs.paragraphs_type.hash_coin
+  module:
+    - entity_reference_revisions
+id: block_content.hash_coin.field_hash_coin
+field_name: field_hash_coin
+entity_type: block_content
+bundle: hash_coin
+label: 'Hash Coin'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      hash_coin: hash_coin
+    target_bundles_drag_drop:
+      hash_coin:
+        enabled: true
+        weight: 9
+      icon_container:
+        weight: 10
+        enabled: false
+      icons:
+        weight: 11
+        enabled: false
+      images:
+        weight: 12
+        enabled: false
+      recent_blog:
+        weight: 13
+        enabled: false
+      services:
+        weight: 14
+        enabled: false
+      slider:
+        weight: 15
+        enabled: false
+      what_is_bitcoin:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

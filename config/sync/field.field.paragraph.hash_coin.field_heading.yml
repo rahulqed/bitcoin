@@ -1,0 +1,21 @@
+uuid: 442bab33-40de-4fbd-a724-c856dfaed0a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_heading
+    - paragraphs.paragraphs_type.hash_coin
+  module:
+    - text
+id: paragraph.hash_coin.field_heading
+field_name: field_heading
+entity_type: paragraph
+bundle: hash_coin
+label: Heading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

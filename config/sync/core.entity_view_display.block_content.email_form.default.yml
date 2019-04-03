@@ -1,0 +1,42 @@
+uuid: 6ca97eec-43ad-41ad-84d8-82336db0c34b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.email_form
+    - field.field.block_content.email_form.body
+    - field.field.block_content.email_form.field_description_
+    - field.field.block_content.email_form.field_email_form
+    - field.field.block_content.email_form.field_heading_
+  module:
+    - text
+id: block_content.email_form.default
+targetEntityType: block_content
+bundle: email_form
+mode: default
+content:
+  field_description_:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_email_form:
+    weight: 2
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_heading_:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  body: true

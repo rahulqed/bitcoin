@@ -1,0 +1,41 @@
+uuid: 5798acd1-8fb4-48fb-9e97-7b0dfd9e4a8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.custom_block
+    - field.field.block_content.custom_block.body
+    - field.field.block_content.custom_block.field_email
+  module:
+    - text
+id: block_content.custom_block.default
+targetEntityType: block_content
+bundle: custom_block
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_email:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

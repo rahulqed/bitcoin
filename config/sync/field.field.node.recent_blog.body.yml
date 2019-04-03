@@ -1,0 +1,22 @@
+uuid: 924d5e4b-fff3-47b7-95eb-8956e21d3106
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.recent_blog
+  module:
+    - text
+id: node.recent_blog.body
+field_name: body
+entity_type: node
+bundle: recent_blog
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

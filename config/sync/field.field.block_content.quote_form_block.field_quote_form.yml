@@ -1,0 +1,21 @@
+uuid: 2b98a695-a6e6-4c9e-810f-804503c036c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.quote_form_block
+    - field.storage.block_content.field_quote_form
+id: block_content.quote_form_block.field_quote_form
+field_name: field_quote_form
+entity_type: block_content
+bundle: quote_form_block
+label: 'Quote Form'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:contact_form'
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,8 @@
+uuid: 68e919c2-c63e-4a94-8cc1-fd8f75fb2422
+langcode: en
+status: true
+dependencies: {  }
+id: quote_form_block
+label: 'Quote Form Block'
+revision: 0
+description: ''

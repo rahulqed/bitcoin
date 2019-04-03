@@ -1,0 +1,8 @@
+uuid: 35039166-f758-44e8-9e3f-f1ac26ae9afc
+langcode: en
+status: true
+dependencies: {  }
+id: recent_blog
+label: 'Recent Blog'
+revision: 0
+description: ''

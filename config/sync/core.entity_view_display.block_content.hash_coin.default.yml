@@ -1,0 +1,33 @@
+uuid: f4d85929-3484-41b8-8947-07008f13657a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hash_coin
+    - field.field.block_content.hash_coin.body
+    - field.field.block_content.hash_coin.field_hash_coin
+  module:
+    - entity_reference_revisions
+    - text
+id: block_content.hash_coin.default
+targetEntityType: block_content
+bundle: hash_coin
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_hash_coin:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

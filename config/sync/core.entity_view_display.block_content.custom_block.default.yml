@@ -1,0 +1,30 @@
+uuid: 9404c03b-c22e-44c3-ac8f-90728500abae
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.custom_block
+    - field.field.block_content.custom_block.body
+    - field.field.block_content.custom_block.field_email
+  module:
+    - text
+id: block_content.custom_block.default
+targetEntityType: block_content
+bundle: custom_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_email:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: email_mailto
+    region: content
+hidden: {  }

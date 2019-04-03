@@ -1,0 +1,45 @@
+uuid: 98b8282a-efaa-454e-9d3b-cb34b3aaeac4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.email_form
+    - field.field.block_content.email_form.body
+    - field.field.block_content.email_form.field_description_
+    - field.field.block_content.email_form.field_email_form
+    - field.field.block_content.email_form.field_heading_
+  module:
+    - text
+id: block_content.email_form.default
+targetEntityType: block_content
+bundle: email_form
+mode: default
+content:
+  field_description_:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_email_form:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_heading_:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  body: true
+  info: true

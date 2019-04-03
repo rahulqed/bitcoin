@@ -15,8 +15,8 @@ bundle: services
 mode: default
 content:
   field_image:
-    weight: 1
-    label: above
+    weight: 0
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
@@ -25,8 +25,8 @@ content:
     region: content
   field_services_paragraph:
     type: entity_reference_revisions_entity_view
-    weight: 0
-    label: above
+    weight: 1
+    label: hidden
     settings:
       view_mode: default
       link: ''

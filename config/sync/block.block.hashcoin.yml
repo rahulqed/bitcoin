@@ -1,0 +1,25 @@
+uuid: b7988876-8efd-461e-bc04-fb20efee1b4f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:hash_coin:e3d672ab-3f4c-4716-85df-5193e864cdf2'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: hashcoin
+theme: bartik
+region: footer_second
+weight: -7
+provider: null
+plugin: 'block_content:e3d672ab-3f4c-4716-85df-5193e864cdf2'
+settings:
+  id: 'block_content:e3d672ab-3f4c-4716-85df-5193e864cdf2'
+  label: 'Hash Coin'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

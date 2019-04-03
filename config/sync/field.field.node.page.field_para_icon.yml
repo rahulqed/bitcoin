@@ -1,0 +1,52 @@
+uuid: abd129d4-e5cf-4032-829d-aa831ef20b31
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_para_icon
+    - node.type.page
+    - paragraphs.paragraphs_type.icon_container
+  module:
+    - entity_reference_revisions
+id: node.page.field_para_icon
+field_name: field_para_icon
+entity_type: node
+bundle: page
+label: 'Para Icon'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      icon_container: icon_container
+    target_bundles_drag_drop:
+      hash_coin:
+        weight: 9
+        enabled: false
+      icons:
+        weight: 10
+        enabled: false
+      icon_container:
+        enabled: true
+        weight: 11
+      images:
+        weight: 12
+        enabled: false
+      recent_blog:
+        weight: 13
+        enabled: false
+      services:
+        weight: 14
+        enabled: false
+      slider:
+        weight: 15
+        enabled: false
+      what_is_bitcoin:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

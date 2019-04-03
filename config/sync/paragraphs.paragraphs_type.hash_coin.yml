@@ -1,0 +1,9 @@
+uuid: 8d6575b5-f723-42c1-a900-be03b127eb00
+langcode: en
+status: true
+dependencies: {  }
+id: hash_coin
+label: 'Hash Coin'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

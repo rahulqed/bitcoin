@@ -1,0 +1,21 @@
+uuid: 819d3c78-53a1-40b0-b1f9-193423a34677
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.email_form
+    - field.storage.block_content.field_heading_
+  module:
+    - text
+id: block_content.email_form.field_heading_
+field_name: field_heading_
+entity_type: block_content
+bundle: email_form
+label: Heading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

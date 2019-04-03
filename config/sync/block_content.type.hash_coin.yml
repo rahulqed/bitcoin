@@ -1,0 +1,8 @@
+uuid: 7c80083d-4c2e-4118-a0c4-d9f2fd805f5a
+langcode: en
+status: true
+dependencies: {  }
+id: hash_coin
+label: 'Hash Coin'
+revision: 0
+description: ''

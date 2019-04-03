@@ -1,0 +1,20 @@
+uuid: c8a8c682-e5c2-41bd-bbe3-1d2424329162
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - contact
+id: block_content.field_quote_form
+field_name: field_quote_form
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: contact_form
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,27 @@
+uuid: eef7c20f-5ddb-4e18-a152-c03f60a1f80d
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.email_form
+    - field.field.contact_message.email_form.field_email_address
+id: contact_message.email_form.default
+targetEntityType: contact_message
+bundle: email_form
+mode: default
+content:
+  field_email_address:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+hidden:
+  copy: true
+  mail: true
+  message: true
+  name: true
+  preview: true
+  subject: true

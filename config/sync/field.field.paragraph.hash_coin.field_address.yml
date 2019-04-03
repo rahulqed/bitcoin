@@ -1,0 +1,21 @@
+uuid: d45d19a3-4694-4b7b-b56d-7e0259c2286e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_address
+    - paragraphs.paragraphs_type.hash_coin
+  module:
+    - text
+id: paragraph.hash_coin.field_address
+field_name: field_address
+entity_type: paragraph
+bundle: hash_coin
+label: Address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,25 @@
+uuid: 5fe7425b-d07c-4242-9ba1-f704b40bf153
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.quote_form_block
+    - field.field.block_content.quote_form_block.body
+    - field.field.block_content.quote_form_block.field_quote_form
+id: block_content.quote_form_block.default
+targetEntityType: block_content
+bundle: quote_form_block
+mode: default
+content:
+  field_quote_form:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  body: true
+  info: true

@@ -1,0 +1,24 @@
+uuid: ac3dbea3-1c87-4441-81a5-8e1b9255d24c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.quote_form_block
+    - field.field.block_content.quote_form_block.body
+    - field.field.block_content.quote_form_block.field_quote_form
+id: block_content.quote_form_block.default
+targetEntityType: block_content
+bundle: quote_form_block
+mode: default
+content:
+  field_quote_form:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  body: true

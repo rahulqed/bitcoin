@@ -1,0 +1,8 @@
+uuid: 02ca36d6-75d6-4f67-b090-aaabd81a228c
+langcode: en
+status: true
+dependencies: {  }
+id: email_form
+label: 'Email Form'
+revision: 0
+description: ''

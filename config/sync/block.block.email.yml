@@ -1,0 +1,25 @@
+uuid: 1b39646d-049d-4bcc-b6dc-8448f3fa9ff2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:email_form:80d70f89-afe6-425d-8978-3bca378a8acf'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: email
+theme: bartik
+region: footer_third
+weight: 0
+provider: null
+plugin: 'block_content:80d70f89-afe6-425d-8978-3bca378a8acf'
+settings:
+  id: 'block_content:80d70f89-afe6-425d-8978-3bca378a8acf'
+  label: Email
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

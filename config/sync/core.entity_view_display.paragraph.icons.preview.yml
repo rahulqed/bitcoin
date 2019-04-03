@@ -1,0 +1,44 @@
+uuid: ff48edd8-9134-4117-9ad5-7523c1a2cc1d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.icons.field_description
+    - field.field.paragraph.icons.field_icons_image
+    - field.field.paragraph.icons.field_slider_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.icons
+  module:
+    - image
+    - text
+id: paragraph.icons.preview
+targetEntityType: paragraph
+bundle: icons
+mode: preview
+content:
+  field_description:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_icons_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_slider_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

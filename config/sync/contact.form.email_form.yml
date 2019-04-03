@@ -1,0 +1,21 @@
+uuid: a376f7c3-c647-43c5-8973-9adeb60b713e
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: Send
+    show_preview: false
+    disabled_form_message: 'This contact form has been disabled.'
+    maximum_submissions_user: 0
+    page_autoreply_format: plain_text
+id: email_form
+label: 'Email Form'
+recipients:
+  - rahul.deshmukh324.rdr@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

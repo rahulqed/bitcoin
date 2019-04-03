@@ -1,0 +1,19 @@
+uuid: 2cd0f2c5-674a-4779-9add-8038bb1b0ec6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_email
+    - paragraphs.paragraphs_type.hash_coin
+id: paragraph.hash_coin.field_email
+field_name: field_email
+entity_type: paragraph
+bundle: hash_coin
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

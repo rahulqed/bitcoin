@@ -1,0 +1,49 @@
+uuid: 839f9223-a7f2-4315-a065-4017c1318fdb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.recent_blog
+    - field.storage.block_content.field_recent_
+    - paragraphs.paragraphs_type.recent_blog
+  module:
+    - entity_reference_revisions
+id: block_content.recent_blog.field_recent_
+field_name: field_recent_
+entity_type: block_content
+bundle: recent_blog
+label: 'Recent Blog'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      recent_blog: recent_blog
+    target_bundles_drag_drop:
+      icon_container:
+        weight: 8
+        enabled: false
+      icons:
+        weight: 9
+        enabled: false
+      images:
+        weight: 10
+        enabled: false
+      recent_blog:
+        enabled: true
+        weight: 11
+      services:
+        weight: 12
+        enabled: false
+      slider:
+        weight: 13
+        enabled: false
+      what_is_bitcoin:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions
