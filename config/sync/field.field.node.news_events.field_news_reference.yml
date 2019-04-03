@@ -1,16 +1,16 @@
-uuid: 400e22ab-2133-46be-9cbc-325b4ea85b43
+uuid: 05ff7b6e-a422-4eea-b0e5-e6a7decfe112
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_in
+    - field.storage.node.field_news_reference
     - node.type.news_events
     - taxonomy.vocabulary.news_events
-id: node.news_events.field_in
-field_name: field_in
+id: node.news_events.field_news_reference
+field_name: field_news_reference
 entity_type: node
 bundle: news_events
-label: in
+label: 'News Reference'
 description: ''
 required: false
 translatable: false

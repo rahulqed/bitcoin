@@ -1,18 +1,17 @@
-uuid: 5276dea6-9880-45c3-b24a-57acb3a4bde8
+uuid: ec344f18-8786-4aef-8bfe-0a8b250a5553
 langcode: en
 status: true
 dependencies:
   module:
+    - fivestar
     - node
-id: node.field_title
-field_name: field_title
+id: node.field_testimonial_rating
+field_name: field_testimonial_rating
 entity_type: node
-type: string
+type: fivestar
 settings:
-  max_length: 255
-  is_ascii: false
-  case_sensitive: false
-module: core
+  vote_type: vote
+module: fivestar
 locked: false
 cardinality: 1
 translatable: true

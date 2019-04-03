@@ -1,0 +1,25 @@
+uuid: cf4dd364-4f41-4d06-8dc6-a8e24fe67c2a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:958098ce-7de1-49ee-b5c4-25e83bafaf71'
+  module:
+    - block_content
+  theme:
+    - stabletheme
+id: teest
+theme: stabletheme
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:958098ce-7de1-49ee-b5c4-25e83bafaf71'
+settings:
+  id: 'block_content:958098ce-7de1-49ee-b5c4-25e83bafaf71'
+  label: TEest
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

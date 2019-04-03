@@ -1,0 +1,82 @@
+uuid: bb574956-86e0-4aba-8e79-20228687410c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.testimonials.body
+    - field.field.node.testimonials.field_first_name
+    - field.field.node.testimonials.field_testimonial_icon
+    - field.field.node.testimonials.field_testimonial_image
+    - field.field.node.testimonials.field_testimonial_last_name
+    - field.field.node.testimonials.field_testimonial_rating
+    - node.type.testimonials
+  module:
+    - fivestar
+    - image
+    - text
+    - user
+id: node.testimonials.teaser
+targetEntityType: node
+bundle: testimonials
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 6
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_first_name:
+    type: string
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_testimonial_icon:
+    type: image
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_testimonial_image:
+    type: image
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_testimonial_last_name:
+    type: string
+    weight: 4
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_testimonial_rating:
+    type: fivestar_stars
+    weight: 5
+    region: content
+    label: hidden
+    settings:
+      text_format: average
+      display_format: average
+      fivestar_widget: modules/contrib/fivestar/widgets/basic/basic.css
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true

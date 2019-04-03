@@ -1,0 +1,43 @@
+uuid: 1a410364-b6b2-4925-aae6-daba760a4242
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_what_is_bitcoin
+    - node.type.page
+    - paragraphs.paragraphs_type.what_is_bitcoin
+  module:
+    - entity_reference_revisions
+id: node.page.field_what_is_bitcoin
+field_name: field_what_is_bitcoin
+entity_type: node
+bundle: page
+label: 'What is Bitcoin'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      what_is_bitcoin: what_is_bitcoin
+    target_bundles_drag_drop:
+      icons:
+        weight: 6
+        enabled: false
+      icon_container:
+        weight: 7
+        enabled: false
+      services:
+        weight: 8
+        enabled: false
+      slider:
+        weight: 9
+        enabled: false
+      what_is_bitcoin:
+        enabled: true
+        weight: 10
+field_type: entity_reference_revisions
