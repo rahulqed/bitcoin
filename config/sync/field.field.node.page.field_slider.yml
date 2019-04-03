@@ -1,0 +1,43 @@
+uuid: 6111425f-4c62-4dfb-beda-932b3e230c7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slider
+    - node.type.page
+    - paragraphs.paragraphs_type.slider
+  module:
+    - entity_reference_revisions
+id: node.page.field_slider
+field_name: field_slider
+entity_type: node
+bundle: page
+label: Slider
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      slider: slider
+    target_bundles_drag_drop:
+      icon_container:
+        weight: 6
+        enabled: false
+      icons:
+        weight: 7
+        enabled: false
+      services:
+        weight: 8
+        enabled: false
+      slider:
+        enabled: true
+        weight: 9
+      what_is_bitcoin:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

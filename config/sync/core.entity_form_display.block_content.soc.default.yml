@@ -1,0 +1,29 @@
+uuid: 54fd82c9-aecc-4029-9061-959e434cfa79
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.soc
+    - field.field.block_content.soc.field_social_links
+  module:
+    - fontawesome
+id: block_content.soc.default
+targetEntityType: block_content
+bundle: soc
+mode: default
+content:
+  field_social_links:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: fontawesome_icon_widget
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

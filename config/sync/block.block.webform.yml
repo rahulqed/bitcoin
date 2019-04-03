@@ -1,0 +1,39 @@
+uuid: c9a57cd9-87c8-4e72-9017-396238fcd4e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.free_quote
+  module:
+    - node
+    - system
+    - webform
+  theme:
+    - bartik
+id: webform
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  provider: webform
+  label_display: visible
+  webform_id: free_quote
+  default_data: ''
+  redirect: false
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: /node/1
+    negate: false
+    context_mapping: {  }

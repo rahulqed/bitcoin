@@ -1,0 +1,41 @@
+uuid: c360fef6-1bb0-4859-83fa-0092beaa9644
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.soc
+    - field.storage.block_content.field_social_links
+  module:
+    - fontawesome
+id: block_content.soc.field_social_links
+field_name: field_social_links
+entity_type: block_content
+bundle: soc
+label: 'Social links'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    icon_name: facebook-f
+    style: fab
+    settings: 'a:4:{s:11:"fixed-width";s:5:"fa-fw";s:4:"pull";s:12:"fa-pull-left";s:7:"masking";a:2:{s:4:"mask";s:0:"";s:5:"style";s:3:"fab";}s:16:"power_transforms";a:3:{s:5:"scale";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_y";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_x";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}}}'
+  -
+    icon_name: twitter
+    style: fab
+    settings: 'a:3:{s:11:"fixed-width";s:5:"fa-fw";s:7:"masking";a:2:{s:4:"mask";s:0:"";s:5:"style";s:3:"fab";}s:16:"power_transforms";a:3:{s:5:"scale";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_y";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_x";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}}}'
+  -
+    icon_name: google-plus
+    style: fab
+    settings: 'a:3:{s:11:"fixed-width";s:5:"fa-fw";s:7:"masking";a:2:{s:4:"mask";s:0:"";s:5:"style";s:3:"fab";}s:16:"power_transforms";a:3:{s:5:"scale";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_y";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_x";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}}}'
+  -
+    icon_name: linkedin-in
+    style: fab
+    settings: 'a:3:{s:11:"fixed-width";s:5:"fa-fw";s:7:"masking";a:2:{s:4:"mask";s:0:"";s:5:"style";s:3:"fab";}s:16:"power_transforms";a:3:{s:5:"scale";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_y";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_x";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}}}'
+  -
+    icon_name: youtube
+    style: fab
+    settings: 'a:3:{s:11:"fixed-width";s:5:"fa-fw";s:7:"masking";a:2:{s:4:"mask";s:0:"";s:5:"style";s:3:"fab";}s:16:"power_transforms";a:3:{s:5:"scale";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_y";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_x";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}}}'
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon
